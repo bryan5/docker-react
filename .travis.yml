@@ -1,0 +1,10 @@
+sudo: required
+language: generic
+services:
+  - docker
+
+before_install:
+  - docker build -t bbortner/docker-react -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true bbortner/docker-react npm run test
