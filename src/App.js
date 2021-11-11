@@ -10,7 +10,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p>
-          All your base are belong to us.
+          All your base are belong to us!
         </p>
         <a
           className="App-link"
